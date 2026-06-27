@@ -1,0 +1,119 @@
+{
+  "features": [
+    "Hour",
+    "DayOfWeek",
+    "IsWeekend",
+    "IsWorkingHour",
+    "Month",
+    "Hour_sin",
+    "Hour_cos",
+    "Day_sin",
+    "Day_cos",
+    "Temperature (\u00b0C)",
+    "Humidity (%)",
+    "Occupancy_enc",
+    "BuildingType_enc",
+    "Building_ID_enc"
+  ],
+  "rmse": 21.6151,
+  "mae": 17.4101,
+  "r2": 0.7735,
+  "mape": 8.9687,
+  "occupancy_classes": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "type_classes": [
+    "Commercial",
+    "Educational",
+    "Industrial",
+    "Residential"
+  ],
+  "building_classes": [
+    "B001",
+    "B002",
+    "B003",
+    "B004",
+    "B005",
+    "B006",
+    "B007",
+    "B008",
+    "B009",
+    "B010",
+    "B011",
+    "B012",
+    "B013",
+    "B014",
+    "B015",
+    "B016",
+    "B017",
+    "B018",
+    "B019",
+    "B020"
+  ],
+  "building_types": [
+    "Commercial",
+    "Educational",
+    "Industrial",
+    "Residential"
+  ],
+  "feature_importance": [
+    {
+      "Feature": "Hour",
+      "Importance": 0.2305048
+    },
+    {
+      "Feature": "DayOfWeek",
+      "Importance": 0.1634673
+    },
+    {
+      "Feature": "IsWeekend",
+      "Importance": 0.0860375
+    },
+    {
+      "Feature": "IsWorkingHour",
+      "Importance": 0.0110352
+    },
+    {
+      "Feature": "Month",
+      "Importance": 0.0
+    },
+    {
+      "Feature": "Hour_sin",
+      "Importance": 0.0996218
+    },
+    {
+      "Feature": "Hour_cos",
+      "Importance": 0.0391943
+    },
+    {
+      "Feature": "Day_sin",
+      "Importance": 0.0926422
+    },
+    {
+      "Feature": "Day_cos",
+      "Importance": 0.0020433
+    },
+    {
+      "Feature": "Temperature (\u00b0C)",
+      "Importance": 0.2116195
+    },
+    {
+      "Feature": "Humidity (%)",
+      "Importance": 0.0288066
+    },
+    {
+      "Feature": "Occupancy_enc",
+      "Importance": 0.0072169
+    },
+    {
+      "Feature": "BuildingType_enc",
+      "Importance": 0.0077318
+    },
+    {
+      "Feature": "Building_ID_enc",
+      "Importance": 0.0200786
+    }
+  ]
+}
